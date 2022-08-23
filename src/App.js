@@ -1,6 +1,6 @@
 import './App.css';
 import AnimoText from './test-comps/AnimoText/AnimoText';
-import ImageDrop from './test-comps/Imagedrop/ImageDrop';
+import ImageDrop from './test-comps/ImageDrop/ImageDrop';
 
 function App() {
     return (
