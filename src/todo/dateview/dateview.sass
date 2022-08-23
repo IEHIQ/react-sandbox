@@ -1,0 +1,50 @@
+.date
+    background-color: #fff
+
+    display: grid
+    grid-template-rows: 1fr 1fr
+
+    padding: 15px
+
+    z-index: 99
+
+.month
+    display: flex
+    align-items: center
+    justify-content: center
+
+    font-size: 24px
+    font-weight: bold
+    
+    p:first-letter
+        text-transform: uppercase
+
+.week
+    display: grid
+    grid-template-columns: repeat(7, 1fr)
+    gap: 5px
+
+.day
+    display: flex
+    align-items: center
+    justify-content: center
+    flex-direction: column
+
+    padding: 10px
+
+    border-radius: 15px
+
+.title
+    font-size: 12px
+    font-weight: 600
+
+.num
+    font-size: 16px
+    font-weight: 600
+
+.past
+    color: #808080
+
+.current
+    background-color: var(--app-blue)
+    color: var(--app-white)

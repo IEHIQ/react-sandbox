@@ -1,0 +1,29 @@
+.radio-button
+    
+    display: inline-block
+
+    input[type=radio]
+        display: none
+
+        &:checked + label
+            color: var(--app-white)
+            background-color: var(--app-blue)
+            
+
+    label
+        display: flex
+        align-items: center
+        justify-content: center
+
+        padding: 10px
+        border-radius: 10px
+
+        font-family: 'Onest'
+        font-weight: bold
+
+        border: 3px solid var(--app-blue)
+        color: var(--app-black)
+        
+        &:hover
+            border: 3px dotted var(--app-blue)
+            cursor: pointer

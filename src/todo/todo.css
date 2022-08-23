@@ -1,0 +1,12 @@
+.todo-app {
+    height: 90vh;
+    aspect-ratio: 9/16;
+    background-color: #fff;
+
+    overflow: hidden;
+
+    border-radius: 3vmin;
+
+    display: grid;
+    grid-template-rows: 2fr 8fr;
+}
