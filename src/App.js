@@ -1,13 +1,12 @@
 import './App.css';
-import DateSelector from './test-comps/DateSelector/DateSelector';
-import RadioSelector from './test-comps/RadioSelector/RadioSelector';
-import Todo from './todo/Todo';
+import AnimoText from './test-comps/AnimoText/AnimoText';
+import ImageDrop from './test-comps/Imagedrop/ImageDrop';
 
 function App() {
     return (
         <div className="App">
             <div className='component-container'>
-                <RadioSelector />
+                <ImageDrop />
             </div>
         </div>
     );

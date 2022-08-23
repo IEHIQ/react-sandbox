@@ -1,0 +1,36 @@
+.image-dropzone {
+    background-color: #D1CCDC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40vmin;
+    height: 40vmin;
+    border-radius: 25px;
+    position: relative;
+}
+
+.empty {
+    border: 4px dashed #424C55;
+}
+
+.prompt {
+    position: absolute;
+    font-family: 'Manrope';
+    font-size: 24px;
+    font-variation-settings: 'wght' 700;
+    color: #424C55;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: inherit;
+}
+
+.hidden {
+    display: none;
+}
